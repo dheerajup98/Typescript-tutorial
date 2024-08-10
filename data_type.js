@@ -24,3 +24,14 @@ var jsonResponse = {
 };
 console.log(jsonResponse.isActive);
 console.log(typeof jsonResponse);
+// Non Primitive Data types
+// 1. Array
+var friends = ["dheeraj", "suresh", "kedu"];
+console.log(friends);
+friends.push("fakir");
+console.log(friends);
+console.log(typeof (friends));
+console.log(typeof friends[1]);
+friends.forEach(function (i) {
+    console.log(i);
+});

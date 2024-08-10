@@ -17,4 +17,11 @@ let myName : string = "dheeraj upadhyay";
 3. String 
 4. Undefined-> this is falsy value in javascript it is bascially not intialized in data in variable. untialized data.
 5. NuLL--> It is also falsy value in javascript null means if you fetch the data from backend and you dont know whwn your data is comes from backend. so you intialized the null keyword. you do intensionaly.
-6. Any -> This is new in typescript means they avoid the type checking it means you dont know which type of data comes from the json response. 
+6. Any -> This is new in typescript means they avoid the type checking it means you dont know which type of data comes from the json response.
+
+# Non Primtive data types
+
+1. Array
+=> Array is an ordered list which store data, And in javascript or typescript is array is an object.
+
+ex- let myArr : number[] = [2,6,,9];
