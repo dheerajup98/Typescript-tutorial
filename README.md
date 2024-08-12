@@ -25,3 +25,30 @@ let myName : string = "dheeraj upadhyay";
 => Array is an ordered list which store data, And in javascript or typescript is array is an object.
 
 ex- let myArr : number[] = [2,6,,9];
+
+# Note:- If you store mixed data types in an array so, than you create in this way!
+ex- let mixedArr : (string | number)[]= ["shakir","fakir","janam",25,36,89];
+
+2. Object
+
+ex- let student : {
+    name: string;
+    address: string;
+    rollno: number;
+    isActive: boolean;
+} = {
+    name:"dheeraj",
+    address; "noida",
+    rollno: 22,
+    isActive: true
+};
+
+3. Function :- Function is an set of statement to do specific task.
+In typescript the important thing is whenever you set a parameter the type is important which type of value call and return.
+
+ex:- function callMe(dku: string, say: number):void
+{
+    console.log(dku,"i call you");
+}
+
+callMe("dheeraj");

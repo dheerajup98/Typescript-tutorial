@@ -64,3 +64,23 @@ console.log(typeof friends[1]);
 friends.forEach((i)=>{
   console.log(i);
 });
+
+// how to store mixed data types in array like number and string.
+
+let mixed : (string | number)[] = ["banana","apple","dragon",55,36,89];
+
+console.log(mixed);
+
+// 2. Object
+
+let student : {
+  name:string;
+  rollno: number;
+  isActive: boolean;
+} = {
+  name:"dheeraj",
+  rollno: 25,
+  isActive: true
+};
+
+console.log(student.isActive);
