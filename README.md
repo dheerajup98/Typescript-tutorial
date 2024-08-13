@@ -52,3 +52,22 @@ ex:- function callMe(dku: string, say: number):void
 }
 
 callMe("dheeraj");
+
+3. union
+=> Means we are using mixed data types.
+
+ex:- let myInformation : (string | number)[] = ["dheeraj upadhyay",26];
+
+4. Never
+=> Never is an used in function when a function never return any value or throw an error.
+
+ex:- function myFun():never{
+    throw new Error("error);
+}
+
+myfun();
+
+5. Unknown 
+=> Unknown is also same as any but in unkown they  check type safety. Means we don't know which type of data come from the backend.
+
+ex:- let something : never = myFun();

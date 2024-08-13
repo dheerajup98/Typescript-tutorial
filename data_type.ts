@@ -34,7 +34,7 @@ let marks : undefined = undefined;
 
 console.log(marks);
 
-//. any
+//6. any
 
 let jsonResponse : any = {
 
