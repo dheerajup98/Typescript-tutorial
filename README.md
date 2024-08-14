@@ -71,3 +71,8 @@ myfun();
 => Unknown is also same as any but in unkown they  check type safety. Means we don't know which type of data come from the backend.
 
 ex:- let something : never = myFun();
+
+6. Tuple
+=> Tuple is similar to array but only difference is length is fixed and typpe is mandatory to data member.
+
+ex:- let myInfo : [string,number] = ["dheeraj", 26];
