@@ -80,7 +80,7 @@ let student : {
 } = {
   name:"dheeraj",
   rollno: 25,
-  isActive: true
+  isActive: true,
 };
 
 console.log(student.isActive);
